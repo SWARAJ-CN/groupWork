@@ -1,15 +1,13 @@
-import React from 'react'
+// import React from 'react'
+
+import LatestNews from "./components/LatestNews"
+import SecondSection from "./components/SecondSection"
 
 const Home = () => {
   return (
     <>
-     {/* connect everything here*/}
-        {/* eg: <sachin/>
-                <sanu/>
-                <Navin/>
-                <Swaraj/>
-         */}
-         <p>abc</p>
+     <SecondSection/>
+     <LatestNews/>
     </>
   )
 }
