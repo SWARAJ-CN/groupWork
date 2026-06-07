@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Navin from './Navin.jsx'
 const Home = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Home = () => {
                 <Navin/>
                 <Swaraj/>
          */}
-         <p>abc</p>
+         <Navin/>
     </>
   )
 }
